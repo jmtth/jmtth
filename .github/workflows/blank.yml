@@ -35,7 +35,7 @@ jobs:
 
       - name: Commit and Push PDF
         run: |
-          sudo chown -R $USER:$USER ./built
+          #sudo chown -R $USER:$USER ./built
           if [ -f "CV_Jean_Matthieu_HERVOCHE.pdf" ]; then
             git config --local user.email "action@github.com"
             git config --local user.name "GitHub Action"
