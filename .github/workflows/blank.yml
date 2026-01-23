@@ -1,0 +1,33 @@
+name: Generate Resume PDF
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - 'README.md'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+
+      - name: Convert Markdown to PDF
+        uses: baileyjm02/markdown-to-pdf@v1
+        with:
+          input_path: README.md
+          output_path: CV_Jean_Matthieu_HERVOCHE.pdf
+          # ajout futur de CSS
+          # build_html: true
+
+      - name: Commit and Push PDF
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add CV_Jean_Matthieu_HERVOCHE.pdf
+          git commit -m "Update CV PDF from README" || exit 0
+          git push
