@@ -6,15 +6,18 @@ on:
     paths:
       - 'README.md'
 
-  # Allows you to run this workflow manually from the Actions tab
+  # Allows to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
 
       - name: Convert Markdown to PDF
         uses: baileyjm02/markdown-to-pdf@v1
@@ -27,9 +30,15 @@ jobs:
 
       - name: Commit and Push PDF
         run: |
-          mv README.pdf CV_Jean_Matthieu_HERVOCHE.pdf
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add CV_Jean_Matthieu_HERVOCHE.pdf
-          git commit -m "Update CV PDF from README" || exit 0
-          git push
+          if [ -f "README.pdf" ]; then
+            mv README.pdf CV_Jean_Matthieu_HERVOCHE.pdf
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git add CV_Jean_Matthieu_HERVOCHE.pdf
+            git commit -m "Update CV PDF from README" || exit 0
+            git push
+          else
+            echo "Erreur : README.pdf n'a pas été trouvé dans l'espace de travail."
+            ls -R # Pour débugger et voir où le fichier est parti
+            exit 1
+          fi
