@@ -31,11 +31,11 @@
 <p align="left">
   <img src="assets/images/aws-certified-ai-practitioner.png" width="150" align="right">
   
-  ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-  ![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-  ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)  ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
-![Fastify](https://img.shields.io/badge/fastify-%23000000.svg?style=for-the-badge&logo=fastify&logoColor=white) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) 
-![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobe%20illustrator&logoColor=white) ![Adobe InDesign](https://img.shields.io/badge/Adobe%20InDesign-49021F?style=for-the-badge&logo=adobeindesign&logoColor=FF3366)
+  ![C](assets/shields/c.svg) ![C++](assets/shields/cpp.svg)
+  ![Solidity](assets/shields/solidity.svg) ![TypeScript](assets/shields/typescript.svg)
+  ![Apache](assets/shields/apache.svg) ![Nginx](assets/shields/nginx.svg) ![NodeJS](assets/shields/nodejs.svg) ![MariaDB](assets/shields/mariadb.svg)  ![SQLite](assets/shields/sqlite.svg)
+![Fastify](assets/shields/fastify.svg) ![WordPress](assets/shields/wordpress.svg) ![React](assets/shields/react.svg) ![TailwindCSS](assets/shields/tailwindcss.svg) 
+![Adobe Illustrator](assets/shields/illustrator.svg) ![Adobe InDesign](assets/shields/indesign.svg)
 </p>
 
 - **Langages & Systèmes :** C et C++ (avancé) pour la performance et la gestion réseau.
