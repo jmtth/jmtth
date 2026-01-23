@@ -18,16 +18,18 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout code
         uses: actions/checkout@v4
+      
+      - name: Install Pandoc and TeX Live
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-latex-extra
 
       - name: Convert Markdown to PDF
-        uses: paveloom/pandoc-action@v1
-        with:
-          args: >
-            --standalone
-            --pdf-engine=weasyprint
-            --metadata title="CV Jean-Matthieu HERVOCHE"
-            -o CV_Jean_Matthieu_HERVOCHE.pdf
-            README.md
+        run: |
+          pandoc README.md -o CV_Jean_Matthieu_HERVOCHE.pdf \
+            --pdf-engine=pdflatex \
+            -V geometry:margin=1in \
+            --variable mainfont="DejaVu Sans"
 
       - name: Commit and Push PDF
         run: |
