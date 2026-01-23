@@ -22,12 +22,14 @@ jobs:
       - name: Install Pandoc and TeX Live
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-latex-extra
+          sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended \
+          texlive-latex-extra librsvg2-bin python3-pip
 
       - name: Convert Markdown to PDF
         run: |
           pandoc README.md -o CV_Jean_Matthieu_HERVOCHE.pdf \
             --pdf-engine=pdflatex \
+            --from markdown+raw_html \
             -V geometry:margin=1in \
             --variable mainfont="DejaVu Sans"
 
