@@ -66,9 +66,9 @@ Plateforme web avec authentification et sockets temps réel.
 ---
 
 ## <img src="assets/icons/mail.svg" width="22" height="22" valign="bottom"> Me contacter
-- 💼 **LinkedIn :** [Mon profil professionnel](https://linkedin.com/in/jean-matthieu-hervoche-8a850a304/)
-- 📍 **Localisation :** Royan / Angoulême
-- 📧 **Email :** *Disponible sur mon CV ou via LinkedIn pour éviter le spam.*
+- <img src="assets/icons/contact.svg" width="20" height="20" valign="bottom"> **LinkedIn :** [Mon profil professionnel](https://linkedin.com/in/jean-matthieu-hervoche-8a850a304/)
+- <img src="assets/icons/pin.svg" width="20" height="20" valign="bottom"> **Localisation :** Royan / Angoulême
+- <img src="assets/icons/email.svg" width="20" height="20" valign="bottom"> **Email :** *Disponible sur mon CV ou via LinkedIn pour éviter le spam.*
 -  [![Download CV](assets/shields/moncv.svg)](CV_Jean_Matthieu_HERVOCHE.pdf)
 
 ---
