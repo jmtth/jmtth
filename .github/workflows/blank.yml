@@ -23,15 +23,14 @@ jobs:
         uses: baileyjm02/markdown-to-pdf@v1
         with:
           input_path: README.md
-          output_path: .
           # ajout futur de CSS
           # build_html: true
           build_pdf: true
 
       - name: Commit and Push PDF
         run: |
-          if [ -f "README.pdf" ]; then
-            mv README.pdf CV_Jean_Matthieu_HERVOCHE.pdf
+          if [ -f "./built/README.pdf" ]; then
+            mv ./built/README.pdf CV_Jean_Matthieu_HERVOCHE.pdf
             git config --local user.email "action@github.com"
             git config --local user.name "GitHub Action"
             git add CV_Jean_Matthieu_HERVOCHE.pdf
@@ -39,6 +38,6 @@ jobs:
             git push
           else
             echo "Erreur : README.pdf n'a pas été trouvé dans l'espace de travail."
-            ls -R # Pour débugger et voir où le fichier est parti
+            ls -R
             exit 1
           fi
