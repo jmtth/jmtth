@@ -6,28 +6,44 @@ on:
     paths:
       - 'README.md'
 
-  # Allows you to run this workflow manually from the Actions tab
+  # Allows to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Install Pandoc and TeX Live
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended \
+          texlive-latex-extra librsvg2-bin python3-pip
 
       - name: Convert Markdown to PDF
-        uses: baileyjm02/markdown-to-pdf@v1
-        with:
-          input_path: README.md
-          output_path: CV_Jean_Matthieu_HERVOCHE.pdf
-          # ajout futur de CSS
-          # build_html: true
+        run: |
+          pandoc README.md -o CV_Jean_Matthieu_HERVOCHE.pdf \
+            --pdf-engine=pdflatex \
+            --from markdown+raw_html \
+            -V geometry:margin=1in \
+            --variable mainfont="DejaVu Sans"
 
       - name: Commit and Push PDF
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add CV_Jean_Matthieu_HERVOCHE.pdf
-          git commit -m "Update CV PDF from README" || exit 0
-          git push
+          sudo chown -R $USER:$USER ./built
+          if [ -f "CV_Jean_Matthieu_HERVOCHE.pdf" ]; then
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git add CV_Jean_Matthieu_HERVOCHE.pdf
+            git commit -m "Update CV PDF from README" || exit 0
+            git push
+          else
+            echo "Erreur : CV_Jean_Matthieu_HERVOCHE.pdf n'a pas été trouvé dans l'espace de travail."
+            ls -R
+            exit 1
+          fi
