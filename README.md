@@ -69,7 +69,7 @@ Plateforme web avec authentification et sockets temps réel.
 - 💼 **LinkedIn :** [Mon profil professionnel](https://linkedin.com/in/jean-matthieu-hervoche-8a850a304/)
 - 📍 **Localisation :** Royan / Angoulême
 - 📧 **Email :** *Disponible sur mon CV ou via LinkedIn pour éviter le spam.*
--  [![Download CV](https://img.shields.io/badge/Télécharger-Mon_CV-blue?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](CV_Jean_Matthieu_HERVOCHE.pdf)
+-  [![Download CV](assets/shields/moncv.svg)](CV_Jean_Matthieu_HERVOCHE.pdf)
 
 ---
 *"Apprendre, s'adapter, transmettre."*
