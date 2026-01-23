@@ -1,6 +1,6 @@
 # Jean-Matthieu Hervoche
 <p align="center">
-  <img src="casey-horner-O0R5XZfKUGQ-unsplash.jpg" width="100%" height="150" style="object-fit: cover; border-radius: 10px;">
+  <img src="assets/images/casey-horner-O0R5XZfKUGQ-unsplash.jpg" width="100%" height="150" style="object-fit: cover; border-radius: 10px;">
 </p>
 
 <table border="0">
@@ -12,24 +12,24 @@
       <p>Après 20 ans d'expérience en gestion, je mets ma rigueur et ma culture du résultat au service du développement. Étudiant à l'<b>École 42 Angoulême</b>, je combine expertise technique (C/C++, TS) et vision métier.</p>
     </td>
     <td width="25%" align="center">
-      <img src="jmtth.png" width="150" style="border-radius: 50%; border: 2px solid #3178C6;">
+      <img src="assets/images/jmtth.png" width="150" style="border-radius: 50%; border: 2px solid #3178C6;">
     </td>
   </tr>
 </table>
 
 ---
 
-## 💡 Profil 
+## <img src="assets/icons/profil.svg" width="22" height="22" valign="bottom">  Profil 
 - **Capacité d'adaptation :** Habitué à recruter et former des équipes (5 à 10 saisonniers par an) dans des environnements exigeants.
 - **Culture du résultat :** Orienté vers la création d'outils fiables, maintenables et créateurs de valeur.
 - **Engagement :** En recherche d'une **alternance (contrat de professionnalisation) dès avril 2026** pour préparer un titre RNCP 7.
 
 ---
 
-## 🛠️ Compétences Techniques
+## <img src="assets/icons/brain.svg" width="22" height="22" valign="bottom"> Compétences Techniques
 
 <p align="left">
-  <img src="aws-certified-ai-practitioner.png" width="150" align="right">
+  <img src="assets/images/aws-certified-ai-practitioner.png" width="150" align="right">
   
   ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
   ![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
@@ -46,26 +46,26 @@
 
 ---
 
-## 📂 Projets Phares
+## <img src="assets/icons/code.svg" width="22" height="22" valign="bottom"> Projets Phares
 
-### 📡 [ft_IRC](https://github.com/jmtth/ft_IRC) (C++)
+### <img src="assets/icons/mail.svg" width="22" height="22" valign="bottom"> [ft_IRC](https://github.com/jmtth/ft_IRC) (C++)
 Implémentation d'un serveur de messagerie conforme à la RFC 2812.
 - **Collaboration :** Utilisation de `clang-tidy`, `clangd` et gestion rigoureuse par `Pull Requests`.
 - **Innovation :** Intégration d'un bot via **Ollama**.
 
-### 🎮 [Transcendance](https://github.com/jmtth/transcendence) (Fullstack & Blockchain)
+### <img src="assets/icons/game.svg" width="22" height="22" valign="bottom"> [Transcendance](https://github.com/jmtth/transcendence) (Fullstack & Blockchain)
 Plateforme web avec authentification et sockets temps réel.
 - **Blockchain :** Enregistrements immuables sur **Avalanche** via **Solidity**.
 - **Qualité :** Pipeline robuste avec `ESLint`, `Husky`, `Commitlint` et tests via `Vitest`.
 
 ---
 
-## 📊 Statistiques GitHub
+## <img src="assets/icons/stats.svg" width="22" height="22" valign="bottom"> Statistiques GitHub
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=jmtth&show_icons=true&theme=ayu-mirage)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jmtth&layout=compact&theme=ayu-mirage)
 ---
 
-## 📫 Me contacter
+## <img src="assets/icons/mail.svg" width="22" height="22" valign="bottom"> Me contacter
 - 💼 **LinkedIn :** [Mon profil professionnel](https://linkedin.com/in/jean-matthieu-hervoche-8a850a304/)
 - 📍 **Localisation :** Royan / Angoulême
 - 📧 **Email :** *Disponible sur mon CV ou via LinkedIn pour éviter le spam.*
