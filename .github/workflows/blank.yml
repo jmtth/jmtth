@@ -29,6 +29,7 @@ jobs:
 
       - name: Commit and Push PDF
         run: |
+          sudo chown -R $USER:$USER ./built
           if [ -f "./built/README.pdf" ]; then
             mv ./built/README.pdf CV_Jean_Matthieu_HERVOCHE.pdf
             git config --local user.email "action@github.com"
