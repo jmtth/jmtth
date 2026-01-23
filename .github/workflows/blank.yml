@@ -20,12 +20,14 @@ jobs:
         uses: baileyjm02/markdown-to-pdf@v1
         with:
           input_path: README.md
-          output_path: CV_Jean_Matthieu_HERVOCHE.pdf
+          output_path: .
           # ajout futur de CSS
           # build_html: true
+          build_pdf: true
 
       - name: Commit and Push PDF
         run: |
+          mv README.pdf CV_Jean_Matthieu_HERVOCHE.pdf
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add CV_Jean_Matthieu_HERVOCHE.pdf
