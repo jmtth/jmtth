@@ -119,6 +119,9 @@ def remove_github_stats_section(text: str) -> str:
     )
     return pattern.sub("", text)
 
+def remove_empty_markdown_links(text: str) -> str:
+    # Supprime les liens du type [](...)
+    return re.sub(r"^\s*-\s*\[\]\([^)]+\)\s*$", "", text, flags=re.MULTILINE)
 
 def normalize_headers_with_icons(text: str) -> str:
     # ## <img ...> Profil → ## Profil
@@ -154,6 +157,7 @@ def main() -> None:
     text = convert_basic_html_to_md(text)
     text = normalize_headers_with_icons(text)
     text = remove_markdown_images(text)
+    text = remove_empty_markdown_links(text)
     text = cleanup(text)
 
     # Écrasement explicite pour comportement déterministe
