@@ -34,7 +34,7 @@
   ![C](assets/shields/c.svg) ![C++](assets/shields/cpp.svg)
   ![Solidity](assets/shields/solidity.svg) ![TypeScript](assets/shields/typescript.svg)
   ![Apache](assets/shields/apache.svg) ![Nginx](assets/shields/nginx.svg) ![NodeJS](assets/shields/nodejs.svg) ![MariaDB](assets/shields/mariadb.svg)  ![SQLite](assets/shields/sqlite.svg)
-![Fastify](assets/shields/fastify.svg) ![WordPress](assets/shields/wordpress.svg) ![React](assets/shields/react.svg) ![TailwindCSS](assets/shields/tailwindcss.svg) 
+![Fastify](assets/shields/fastify.svg) ![WordPress](assets/shields/wordpress.svg) ![React](assets/shields/react.svg) ![TailwindCSS](assets/shields/tailwindcss.svg) ![Docker](assets/shields/Docker.svg) 
 ![Adobe Illustrator](assets/shields/illustrator.svg) ![Adobe InDesign](assets/shields/indesign.svg)
 </p>
 
