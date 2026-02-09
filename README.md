@@ -6,10 +6,15 @@
 <table border="0">
   <tr>
     <td width="75%">
-      <h1>Développeur Logiciel & Web</h1>
-      <h3>Spécialisation Data & IA</h3>
+      <h1>Développeur Fullstack – Backend & Data</h1>
+      <h3>Alternance RNCP 7 | Web · Data · IA</h3>
       <p><b>Ancien dirigeant d'entreprise en reconversion stratégique vers l'ingénierie logicielle.</b></p>
-      <p>Après 20 ans d'expérience en gestion, je mets ma rigueur et ma culture du résultat au service du développement. Étudiant à l'<b>École 42 Angoulême</b>, je combine expertise technique (C/C++, TS) et vision métier.</p>
+      <p>
+        Après plus de 20 ans d’expérience en environnement concurrentiel, je me spécialise
+        dans le développement backend, les architectures API et la manipulation de données.
+        Étudiant à l’<b>École 42 Angoulême</b>, je combine rigueur technique
+        (C / C++, TypeScript, Node.js) et forte compréhension des enjeux métier.
+      </p>
     </td>
     <td width="25%" align="center">
       <img src="assets/images/jmtth.png" width="150" style="border-radius: 50%; border: 2px solid #3178C6;">
@@ -20,9 +25,11 @@
 ---
 
 ## <img src="assets/icons/profil.svg" width="22" height="22" valign="bottom">  Profil 
+- **Trajectoire professionnelle atypique :** ancien entrepreneur, habitué aux environnements exigeants et aux contraintes métier.
+- **Orientation backend & data :** conception d’API, structuration des données, qualité et fiabilité des flux.
 - **Capacité d'adaptation :** Habitué à recruter et former des équipes (5 à 10 saisonniers par an) dans des environnements exigeants.
 - **Culture du résultat :** Orienté vers la création d'outils fiables, maintenables et créateurs de valeur.
-- **Engagement :** En recherche d'une **alternance (contrat de professionnalisation) dès avril 2026** pour préparer un titre RNCP 7.
+- **Objectif :** recherche d’une **alternance RNCP 7 (contrat de professionnalisation)** à partir d’**avril ou septembre 2026**.
 
 ---
 
@@ -38,11 +45,23 @@
 ![Adobe Illustrator](assets/shields/illustrator.svg) ![Adobe InDesign](assets/shields/indesign.svg)
 </p>
 
-- **Langages & Systèmes :** C et C++ (avancé) pour la performance et la gestion réseau.
-- **Blockchain :** Développement de smart contracts en **Solidity** sur Avalanche.
-- **Web & Qualité :** TypeScript, Fastify, et automatisation via GitHub Actions (CI/CD).
-- **Outils :** Docker, Linux, Git, et environnement de développement optimisé (VS Code/Neovim).
-- **AI & Data :** `AWS Certified AI Practitioner`, `Ollama integration`, `Data Processing`
+### Backend & Data
+- Conception d’API REST et WebSocket (Node.js / Fastify)
+- Modélisation et exploitation de bases de données SQL
+- Qualité, sécurité et maintenabilité des services
+
+### Langages & Systèmes
+- **C / C++ :** programmation système, réseau, performance
+- **TypeScript :** services backend et logique applicative
+- **Solidity :** sur Avalanche 
+
+### DevOps & Qualité
+- Docker, Linux (Alpine, Ubuntu)
+- CI/CD (GitHub Actions), Git, workflows collaboratifs
+
+### IA (usage raisonné)
+- **AWS Certified AI Practitioner**
+- Intégration locale d’IA (Ollama), automatisation et aide au traitement des données
 
 ---
 
@@ -50,6 +69,8 @@
 
 ### <img src="assets/icons/mail.svg" width="22" height="22" valign="bottom"> [ft_IRC](https://github.com/jmtth/ft_IRC) (C++)
 Implémentation d'un serveur de messagerie conforme à la RFC 2812.
+- **Programmation réseau** bas niveau (sockets TCP)
+- **Gestion de la concurrence** et des états clients
 - **Collaboration :** Utilisation de `clang-tidy`, `clangd` et gestion rigoureuse par `Pull Requests`.
 - **Innovation :** Intégration d'un bot via **Ollama**.
 
