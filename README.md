@@ -61,8 +61,8 @@ Plateforme web avec authentification et sockets temps réel.
 ---
 
 ## <img src="assets/icons/stats.svg" width="22" height="22" valign="bottom"> Statistiques GitHub
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=jmtth&show_icons=true&theme=ayu-mirage)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jmtth&layout=compact&theme=ayu-mirage)
+![GitHub stats](profile/stats.svg)
+![Top Langs](profile/top-langs.svg)
 ---
 
 ## <img src="assets/icons/mail.svg" width="22" height="22" valign="bottom"> Me contacter
