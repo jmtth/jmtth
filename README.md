@@ -7,7 +7,7 @@
   <tr>
     <td width="75%">
       <h1>Développeur Fullstack – Backend & Data</h1>
-      <h3>Alternance RNCP 7 | Web · Data · IA</h3>
+      <h3>Alternance RNCP 7 (Bac + 5 / Master) | Web · Data · IA</h3>
       <p><b>Ancien dirigeant d'entreprise en reconversion stratégique vers l'ingénierie logicielle.</b></p>
       <p>
         Après plus de 20 ans d’expérience en environnement concurrentiel, je me spécialise
@@ -29,7 +29,7 @@
 - **Orientation backend & data :** conception d’API, structuration des données, qualité et fiabilité des flux.
 - **Capacité d'adaptation :** Habitué à recruter et former des équipes (5 à 10 saisonniers par an) dans des environnements exigeants.
 - **Culture du résultat :** Orienté vers la création d'outils fiables, maintenables et créateurs de valeur.
-- **Objectif :** recherche d’une **alternance RNCP 7 (contrat de professionnalisation)** à partir d’**avril ou septembre 2026**.
+- **Objectif :** recherche d’une **alternance RNCP 7 (contrat de professionnalisation de deux ans)** à partir d’**avril ou septembre 2026**.
 
 ---
 
@@ -51,9 +51,9 @@
 - Qualité, sécurité et maintenabilité des services
 
 ### Langages & Systèmes
-- **C / C++ :** programmation système, réseau, performance
-- **TypeScript :** services backend et logique applicative
-- **Solidity :** sur Avalanche 
+- **C / C++ :** programmation système, réseau, performance (Valgrind)
+- **TypeScript :** services backend et logique applicative (Vitest)
+- **Solidity :** sur Avalanche (Foundry, Hardhat)
 
 ### DevOps & Qualité
 - Docker, Linux (Alpine, Ubuntu)
@@ -65,26 +65,34 @@
 
 ---
 
-## <img src="assets/icons/code.svg" width="22" height="22" valign="bottom"> Projets Phares
+## <img src="assets/icons/code.svg" width="22" height="22" valign="bottom"> Projets Phares (Focus Rigueur & Data)
 
 ### <img src="assets/icons/mail.svg" width="22" height="22" valign="bottom"> [ft_IRC](https://github.com/jmtth/ft_IRC) (C++)
-Implémentation d'un serveur de messagerie conforme à la RFC 2812.
+*L'excellence du bas niveau au service de la communication.*
+- **Challenge :** Recréer un serveur IRC conforme à la RFC 2812 sans bibliothèques externes.
+- **Expertise :** Gestion fine de la mémoire, multiplexage de sockets (`poll()`), et architecture client-serveur robuste.
+- **Rigueur :** Respect strict de la norme C++98, zéro fuite mémoire.
 - **Programmation réseau** bas niveau (sockets TCP)
 - **Gestion de la concurrence** et des états clients
 - **Collaboration :** Utilisation de `clang-tidy`, `clangd` et gestion rigoureuse par `Pull Requests`.
 - **Innovation :** Intégration d'un bot via **Ollama**.
 
-### <img src="assets/icons/game.svg" width="22" height="22" valign="bottom"> [Transcendance](https://github.com/jmtth/transcendence) (Fullstack & Blockchain)
-Plateforme web avec authentification et sockets temps réel.
-- **Blockchain :** Enregistrements immuables sur **Avalanche** via **Solidity**.
+### <img src="assets/icons/game.svg" width="22" height="22" valign="bottom"> [Transcendance](https://github.com/jmtth/transcendence) SaaS & Blockchain (Fullstack)
+L'immuabilité des données au cœur d'une application web.*
+- **Innovation :** Utilisation d'**Avalanche** et **Solidity** pour la persistance des scores et données critiques.
+- **Backend :** API haute performance avec Fastify et authentification sécurisée.
+- **DevOps :** Pipeline CI/CD complet (GitHub Actions) et conteneurisation Docker.
 - **Qualité :** Pipeline robuste avec `ESLint`, `Husky`, `Commitlint` et tests via `Vitest`.
 
 ---
 
+## Au-delà du Code
+Mon parcours d'ancien gérant de SARL me permet d'aborder chaque projet avec une vision **ROI (Retour sur Investissement)**. 
+Je ne me contente pas de livrer du code "qui marche", je conçois des outils **maintenables, documentés et scalables**.
+
 ## <img src="assets/icons/stats.svg" width="22" height="22" valign="bottom"> Statistiques GitHub
 ![GitHub stats](profile/stats.svg)
 ![Top Langs](profile/top-langs.svg)
----
 
 ## <img src="assets/icons/mail.svg" width="22" height="22" valign="bottom"> Me contacter
 - <img src="assets/icons/contact.svg" width="20" height="20" valign="bottom"> **LinkedIn :** [Mon profil professionnel](https://linkedin.com/in/jean-matthieu-hervoche/)
