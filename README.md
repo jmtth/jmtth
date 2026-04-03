@@ -39,8 +39,9 @@
   <img src="assets/images/aws-certified-ai-practitioner.png" width="150" align="right">
   
   ![C](assets/shields/c.svg) ![C++](assets/shields/cpp.svg)
-  ![Solidity](assets/shields/solidity.svg) ![TypeScript](assets/shields/typescript.svg)
+  ![Solidity](assets/shields/solidity.svg) ![Ethereum](assets/shields/ethereum.svg) ![TypeScript](assets/shields/typescript.svg)
   ![Apache](assets/shields/apache.svg) ![Nginx](assets/shields/nginx.svg) ![NodeJS](assets/shields/nodejs.svg) ![MariaDB](assets/shields/mariadb.svg)  ![SQLite](assets/shields/sqlite.svg)
+  ![Kubernetes](assets/shields/kubernetes.svg) ![Vagrant](assets/shields/vagrant.svg) ![Argo CD](assets/shields/argocd.svg)
 ![Fastify](assets/shields/fastify.svg) ![WordPress](assets/shields/wordpress.svg) ![React](assets/shields/react.svg) ![TailwindCSS](assets/shields/tailwindcss.svg) ![Docker](assets/shields/Docker.svg) 
 ![Adobe Illustrator](assets/shields/illustrator.svg) ![Adobe InDesign](assets/shields/indesign.svg)
 </p>
@@ -50,10 +51,15 @@
 - Modélisation et exploitation de bases de données SQL
 - Qualité, sécurité et maintenabilité des services
 
+### Cloud, Conteneurisation & Orchestration
+- Docker et déploiements applicatifs en environnement Linux
+- Kubernetes, k3s et k3d pour l’orchestration et les environnements de test locaux
+- GitOps avec ArgoCD pour les déploiements automatisés et reproductibles
+
 ### Langages & Systèmes
 - **C / C++ :** programmation système, réseau, performance (Valgrind)
 - **TypeScript :** services backend et logique applicative (Vitest)
-- **Solidity :** sur Avalanche (Foundry, Hardhat)
+- **Solidity :** création de token, smart contracts et déploiement sur Avalanche (Foundry, Hardhat)
 
 ### DevOps & Qualité
 - Docker, Linux (Alpine, Ubuntu)
@@ -67,6 +73,19 @@
 
 ## <img src="assets/icons/code.svg" width="22" height="22" valign="bottom"> Projets Phares (Focus Rigueur & Data)
 
+### <img src="assets/icons/game.svg" width="22" height="22" valign="bottom"> [Transcendance](https://github.com/jmtth/transcendence) SaaS & Blockchain (Fullstack)
+L'immuabilité des données au cœur d'une application web.*
+- **Innovation :** Utilisation d'**Avalanche** et **Solidity** pour la persistance des scores et données critiques.
+- **Backend :** API haute performance avec Fastify et authentification sécurisée.
+- **DevOps :** Pipeline CI/CD complet (GitHub Actions) et conteneurisation Docker.
+- **Qualité :** Pipeline robuste avec `ESLint`, `Husky`, `Commitlint` et tests via `Vitest`.
+
+### <img src="assets/icons/code.svg" width="22" height="22" valign="bottom"> [Inception-of-Things-42](https://github.com/jmtth/Inception-of-Things-42) Kubernetes & GitOps
+Déploiement et automatisation d’environnements Kubernetes de bout en bout.*
+- **Expertise :** prise en main de **Kubernetes**, **k3s** et **k3d** pour créer, tester et administrer des clusters légers.
+- **GitOps :** mise en place de déploiements automatisés avec **ArgoCD**.
+- **DevOps :** compréhension opérationnelle des manifests, du cycle de déploiement et de la reproductibilité des environnements.
+
 ### <img src="assets/icons/mail.svg" width="22" height="22" valign="bottom"> [ft_IRC](https://github.com/jmtth/ft_IRC) (C++)
 *L'excellence du bas niveau au service de la communication.*
 - **Challenge :** Recréer un serveur IRC conforme à la RFC 2812 sans bibliothèques externes.
@@ -77,12 +96,11 @@
 - **Collaboration :** Utilisation de `clang-tidy`, `clangd` et gestion rigoureuse par `Pull Requests`.
 - **Innovation :** Intégration d'un bot via **Ollama**.
 
-### <img src="assets/icons/game.svg" width="22" height="22" valign="bottom"> [Transcendance](https://github.com/jmtth/transcendence) SaaS & Blockchain (Fullstack)
-L'immuabilité des données au cœur d'une application web.*
-- **Innovation :** Utilisation d'**Avalanche** et **Solidity** pour la persistance des scores et données critiques.
-- **Backend :** API haute performance avec Fastify et authentification sécurisée.
-- **DevOps :** Pipeline CI/CD complet (GitHub Actions) et conteneurisation Docker.
-- **Qualité :** Pipeline robuste avec `ESLint`, `Husky`, `Commitlint` et tests via `Vitest`.
+### <img src="assets/icons/code.svg" width="22" height="22" valign="bottom"> [tokenizer](https://github.com/jmtth/tokenizer) Smart Contract & Token
+Création d’un token personnalisé en Solidity.*
+- **Blockchain :** conception et implémentation d’un **token ERC** en **Solidity**.
+- **Sécurité & qualité :** structuration du contrat, validation des comportements et déploiement dans un environnement de test.
+- **Montée en compétence :** approfondissement des smart contracts, du cycle de développement et des outils associés.
 
 ---
 
